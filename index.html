@@ -3,85 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Subhashisa Swain - CV</title>
+    <title>Subhashisa Swain</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; background-color: #f4f4f4; color: #333; }
-        h1, h2, h3 { color: #2c3e50; }
-        .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        .section { margin-bottom: 20px; }
-        a { color: #2980b9; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        .nav { background: #2c3e50; padding: 10px; text-align: center; border-radius: 10px; }
-        .nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+        body { background-color: #f4f4f4; color: #333; }
+        header { background: #2c3e50; color: white; padding: 20px; text-align: center; }
+        .container { max-width: 900px; margin: auto; padding: 20px; }
+        .section { margin-bottom: 40px; padding: 20px; background: white; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .nav { display: flex; justify-content: center; gap: 20px; padding: 10px; }
+        .nav a { text-decoration: none; color: #2980b9; font-weight: bold; }
         .nav a:hover { text-decoration: underline; }
-        .toggle-btn { margin: 10px; padding: 10px; background: #2980b9; color: white; border: none; cursor: pointer; border-radius: 5px; }
         .dark-mode { background-color: #333; color: white; }
+        button { padding: 10px 20px; background: #2980b9; color: white; border: none; cursor: pointer; border-radius: 5px; }
     </style>
 </head>
 <body>
-    <div class="container">
+    <header>
+        <h1>Subhashisa Swain</h1>
+        <p>PT, MPH, PhD | Research Fellow | Keele University | University of Oxford</p>
         <div class="nav">
-            <a href="#education">Education</a>
+            <a href="#about">About</a>
             <a href="#experience">Experience</a>
-            <a href="#fellowships">Fellowships</a>
-            <a href="#grants">Grants</a>
             <a href="#publications">Publications</a>
-            <a href="#profiles">Profiles</a>
+            <a href="#contact">Contact</a>
         </div>
-        <button class="toggle-btn" onclick="toggleDarkMode()">Toggle Dark Mode</button>
-        <h1>Subhashisa Swain, PT, MPH, PhD</h1>
-        <p>Email: S.Swain@keele.ac.uk, Subhashisa.Swain@phc.ox.ac.uk</p>
-        <p>Affiliations: Keele University | University of Oxford, UK</p>
-        
-        <div class="section" id="education">
-            <h2>Educational Qualifications</h2>
-            <ul>
-                <li><strong>PhD in Musculoskeletal Epidemiology</strong> - University of Nottingham (2018-2021)</li>
-                <li><strong>Master’s in Public Health (Epidemiology)</strong> - Manipal University (2010-2012)</li>
-                <li><strong>Certificate in International Global Health</strong> - Maastricht University (2011-2012)</li>
-                <li><strong>Bachelor in Physiotherapy</strong> - SVNIRTAR (2004-2010)</li>
-            </ul>
+    </header>
+    
+    <div class="container">
+        <div class="section" id="about">
+            <h2>About Me</h2>
+            <p>I am a Research Fellow in Multimorbidity at Keele University and an NIHR Dementia Research Fellow at the University of Oxford. My expertise includes musculoskeletal epidemiology, public health, and electronic health records research.</p>
         </div>
         
         <div class="section" id="experience">
             <h2>Professional Experience</h2>
             <ul>
-                <li><strong>Research Fellow in Multimorbidity</strong> - Keele University (2023-Present)</li>
-                <li><strong>NIHR Dementia Research Fellow</strong> - University of Oxford (2023-Present)</li>
-                <li><strong>Quantitative Researcher in EHR</strong> - University of Oxford (2021-2023)</li>
-                <li><strong>Research Assistant</strong> - University of Nottingham (2019-2021)</li>
-                <li><strong>Physiotherapist</strong> - Asha Rehabilitation Center (2012-2017)</li>
-            </ul>
-        </div>
-        
-        <div class="section" id="fellowships">
-            <h2>Fellowships & Scholarships</h2>
-            <ul>
-                <li>EULAR Early Career Research Bursary (2024, 2022, 2020)</li>
-                <li>Junior Research Fellow, Kellogg College, University of Oxford (2022-Present)</li>
-                <li>Vice-Chancellor Scholarship, University of Nottingham (£75,000)</li>
-            </ul>
-        </div>
-        
-        <div class="section" id="grants">
-            <h2>Selected Grants & Research Funding</h2>
-            <ul>
-                <li>Alzheimer’s Society Grant (£224k, 2024-2026)</li>
-                <li>NIHR Dementia Post-Doctoral Fellowship (£18k)</li>
-                <li>FOREUM Grant for Osteoarthritis Research (€600,000)</li>
+                <li>Research Fellow in Multimorbidity - Keele University (2023-Present)</li>
+                <li>NIHR Dementia Research Fellow - University of Oxford (2023-Present)</li>
+                <li>Quantitative Researcher in EHR - University of Oxford (2021-2023)</li>
             </ul>
         </div>
         
         <div class="section" id="publications">
-            <h2>Publications & Research Profiles</h2>
+            <h2>Publications</h2>
             <p><a href="https://scholar.google.com/citations?user=KWVDiL8AAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a></p>
             <p><a href="https://www.researchgate.net/profile/Subhashisa-Swain" target="_blank">ResearchGate</a></p>
         </div>
         
-        <div class="section" id="profiles">
-            <h2>Professional Profiles</h2>
+        <div class="section" id="contact">
+            <h2>Contact</h2>
+            <p>Email: S.Swain@keele.ac.uk</p>
             <p><a href="https://uk.linkedin.com/in/subhashisa-swain-44779623" target="_blank">LinkedIn</a></p>
         </div>
+        
+        <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
     </div>
     
     <script>
