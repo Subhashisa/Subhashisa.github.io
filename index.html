@@ -5,80 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subhashisa Swain - CV</title>
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f7f7f7;
-        }
-
-        h1, h2, h3 {
-            color: #34495e;
-            text-align: center;
-            margin-bottom: 10px;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 40px auto;
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .section {
-            margin-bottom: 25px;
-            padding: 15px;
-            border-left: 5px solid #3498db;
-            background-color: #ecf0f1;
-            border-radius: 8px;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        li {
-            font-size: 1.1rem;
-            margin-bottom: 10px;
-        }
-
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        p {
-            font-size: 1rem;
-            margin: 5px 0;
-        }
-
-        .contact {
-            text-align: center;
-            font-size: 1.1rem;
-        }
-
-        .contact p {
-            color: #7f8c8d;
-        }
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; background-color: #f4f4f4; color: #333; }
+        h1, h2, h3 { color: #2c3e50; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .section { margin-bottom: 20px; }
+        a { color: #2980b9; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .nav { background: #2c3e50; padding: 10px; text-align: center; border-radius: 10px; }
+        .nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .nav a:hover { text-decoration: underline; }
+        .toggle-btn { margin: 10px; padding: 10px; background: #2980b9; color: white; border: none; cursor: pointer; border-radius: 5px; }
+        .dark-mode { background-color: #333; color: white; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Subhashisa Swain, PT, MPH, PhD</h1>
-        <div class="contact">
-            <p>Email: <a href="mailto:S.Swain@keele.ac.uk">S.Swain@keele.ac.uk</a>, <a href="mailto:Subhashisa.Swain@phc.ox.ac.uk">Subhashisa.Swain@phc.ox.ac.uk</a></p>
-            <p>Affiliations: Keele University | University of Oxford, UK</p>
+        <div class="nav">
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#fellowships">Fellowships</a>
+            <a href="#grants">Grants</a>
+            <a href="#publications">Publications</a>
+            <a href="#profiles">Profiles</a>
         </div>
+        <button class="toggle-btn" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+        <h1>Subhashisa Swain, PT, MPH, PhD</h1>
+        <p>Email: S.Swain@keele.ac.uk, Subhashisa.Swain@phc.ox.ac.uk</p>
+        <p>Affiliations: Keele University | University of Oxford, UK</p>
         
-        <div class="section">
+        <div class="section" id="education">
             <h2>Educational Qualifications</h2>
             <ul>
                 <li><strong>PhD in Musculoskeletal Epidemiology</strong> - University of Nottingham (2018-2021)</li>
@@ -88,7 +43,7 @@
             </ul>
         </div>
         
-        <div class="section">
+        <div class="section" id="experience">
             <h2>Professional Experience</h2>
             <ul>
                 <li><strong>Research Fellow in Multimorbidity</strong> - Keele University (2023-Present)</li>
@@ -99,7 +54,7 @@
             </ul>
         </div>
         
-        <div class="section">
+        <div class="section" id="fellowships">
             <h2>Fellowships & Scholarships</h2>
             <ul>
                 <li>EULAR Early Career Research Bursary (2024, 2022, 2020)</li>
@@ -108,7 +63,7 @@
             </ul>
         </div>
         
-        <div class="section">
+        <div class="section" id="grants">
             <h2>Selected Grants & Research Funding</h2>
             <ul>
                 <li>Alzheimer’s Society Grant (£224k, 2024-2026)</li>
@@ -117,16 +72,22 @@
             </ul>
         </div>
         
-        <div class="section">
+        <div class="section" id="publications">
             <h2>Publications & Research Profiles</h2>
-            <p><a href="https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID" target="_blank">Google Scholar</a></p>
-            <p><a href="https://www.researchgate.net/profile/YOUR_RESEARCHGATE_PROFILE" target="_blank">ResearchGate</a></p>
+            <p><a href="https://scholar.google.com/citations?user=KWVDiL8AAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a></p>
+            <p><a href="https://www.researchgate.net/profile/Subhashisa-Swain" target="_blank">ResearchGate</a></p>
         </div>
         
-        <div class="section">
+        <div class="section" id="profiles">
             <h2>Professional Profiles</h2>
-            <p><a href="https://www.linkedin.com/in/YOUR_LINKEDIN_PROFILE" target="_blank">LinkedIn</a></p>
+            <p><a href="https://uk.linkedin.com/in/subhashisa-swain-44779623" target="_blank">LinkedIn</a></p>
         </div>
     </div>
+    
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
 </body>
 </html>
