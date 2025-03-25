@@ -10,36 +10,66 @@
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
         body { background-color: #f4f4f4; color: #333; text-align: center; }
         header { background: #2c3e50; color: white; padding: 50px; }
+        .nav { display: flex; justify-content: center; gap: 20px; padding: 10px; }
+        .nav a { text-decoration: none; color: #fff; font-weight: bold; }
         .container { max-width: 900px; margin: auto; padding: 20px; }
         .section { margin: 40px 0; padding: 20px; background: white; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
         .typed-text { color: #2980b9; font-weight: bold; }
-        .btn { padding: 10px 20px; background: #2980b9; color: white; border: none; cursor: pointer; border-radius: 5px; }
+        button { padding: 10px 20px; background: #2980b9; color: white; border: none; cursor: pointer; border-radius: 5px; }
         .btn:hover { background: #1a5276; }
-        img { width: 150px; height: 150px; border-radius: 50%; margin-bottom: 20px; }
     </style>
 </head>
 <body>
     <header>
         <h1>Subhashisa Swain</h1>
-        <p>PT, MPH, PhD | Research Fellow | Keele University | University of Oxford</p>
         <p><span class="typed-text"></span></p>
+        <div class="nav">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#grants">Research Grants</a>
+            <a href="#teaching">Teaching</a>
+            <a href="#publications">Publications</a>
+            <a href="#contact">Contact</a>
+        </div>
     </header>
     
     <div class="container">
         <div class="section" id="about">
             <h2>About Me</h2>
-            <img src="profile.jpg" alt="Subhashisa Swain">
             <p>Dr. Swain is a NIHR Dementia Fellow at the University of Oxford and Keele University, UK. His research focuses on multimorbidity, ageing, frailty, musculoskeletal and neurological conditions, and chronic pain.</p>
         </div>
         
-        <div class="section" id="skills">
-            <h2>Skills</h2>
-            <p>Machine Learning | Longitudinal Data Analysis | Epidemiology | Health Policy</p>
+        <div class="section" id="experience">
+            <h2>Professional Experience</h2>
+            <ul>
+                <li>Research Fellow in Multimorbidity - Keele University (2023-Present)</li>
+                <li>NIHR Dementia Research Fellow - University of Oxford (2023-Present)</li>
+                <li>Quantitative Researcher in EHR - University of Oxford (2021-2023)</li>
+            </ul>
         </div>
         
-        <div class="section" id="projects">
-            <h2>Projects</h2>
-            <p>Coming soon...</p>
+        <div class="section" id="grants">
+            <h2>Research Grants & Funding</h2>
+            <ul>
+                <li>Alzheimer’s Society Grant (£224k, 2024-2026)</li>
+                <li>NIHR Dementia Post-Doctoral Fellowship (£18k)</li>
+                <li>FOREUM Grant for Osteoarthritis Research (€600,000)</li>
+            </ul>
+        </div>
+
+        <div class="section" id="teaching">
+            <h2>Teaching & Mentorship</h2>
+            <ul>
+                <li>Supervisor & Mentor for MSc and PhD students - Keele University & University of Oxford</li>
+                <li>Lecturer in Epidemiology and Public Health - University of Nottingham (2019-2021)</li>
+                <li>Guest Lecturer in Musculoskeletal Research - Various Institutions</li>
+            </ul>
+        </div>
+        
+        <div class="section" id="publications">
+            <h2>Publications</h2>
+            <p><a href="https://scholar.google.com/citations?user=KWVDiL8AAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a></p>
+            <p><a href="https://www.researchgate.net/profile/Subhashisa-Swain" target="_blank">ResearchGate</a></p>
         </div>
         
         <div class="section" id="contact">
@@ -47,6 +77,8 @@
             <p>Email: S.Swain@keele.ac.uk</p>
             <p><a href="https://uk.linkedin.com/in/subhashisa-swain-44779623" target="_blank">LinkedIn</a></p>
         </div>
+        
+        <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
     </div>
     
     <script>
@@ -56,6 +88,10 @@
             backSpeed: 50,
             loop: true
         });
+
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
     </script>
 </body>
 </html>
