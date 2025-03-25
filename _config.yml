@@ -1,0 +1,33 @@
+# General settings
+title: "Subhashisa Swain"
+description: "Personal CV Website of Dr. Subhashisa Swain"
+baseurl: ""  # If your site is hosted at a subpath, set it here (e.g., "/cv").
+url: "https://username.github.io"  # Replace with your GitHub username or custom domain
+
+# Theme settings
+theme: minima  # Using Jekyll's default minima theme
+
+# Navigation settings (for your menu)
+header_pages:
+  - About
+  - Education
+  - Experience
+  - Grants & Funding
+  - Fellowships & Awards
+  - Teaching & Mentorship
+  - Publications
+  - Contact
+
+# Markdown and HTML settings for content pages
+markdown: kramdown
+highlighter: pygments
+
+# Permalinks settings (for URLs of individual pages)
+permalink: /:title/
+
+# Social links (for your social media)
+social_links:
+  github: "https://github.com/username"   # Replace with your actual GitHub profile link
+  linkedin: "https://linkedin.com/in/username"  # Replace with your LinkedIn profile link
+  twitter: "https://twitter.com/username"  # Replace with your Twitter handle
+  researchgate: "https://www.researchgate.net/profile/Subhashisa-Swain"  # Replace with your ResearchGate
