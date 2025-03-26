@@ -16,6 +16,7 @@ header_pages:
   - Fellowships & Awards
   - Teaching & Mentorship
   - Publications
+  - Awards & Fellowships  # Add this line for the new Awards page
   - Contact
 
 # Markdown and HTML settings for content pages
