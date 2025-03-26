@@ -7,6 +7,13 @@ url: "https://subhashisa.github.io"  # Replace with your GitHub username or cust
 # Theme settings
 theme: jekyll-theme-cayman  # A different theme with more structure
 
+# Set About as Homepage
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "home"  # This will load the About page first as homepage
+
 # Navigation settings (for your menu)
 header_pages:
   - About
