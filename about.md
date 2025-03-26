@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "About Me"
-permalink: /
 ---
 ## Welcome to My Professional Website
 
