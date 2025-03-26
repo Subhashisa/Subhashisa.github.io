@@ -10,16 +10,21 @@
 </head>
 <body>
 
-    <header>
-        <nav>
-            <ul>
-                <li><a href="{{ site.baseurl }}/">Home</a></li>
-                {% for page in site.header_pages %}
-                    <li><a href="{{ site.baseurl }}/{{ page | downcase }}">{{ page }}</a></li>
-                {% endfor %}
-            </ul>
-        </nav>
-    </header>
+    <!-- _layouts/default.html -->
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="{{ site.baseurl }}/about">About</a></li>
+      <li><a href="{{ site.baseurl }}/experience">Experience</a></li>
+      <li><a href="{{ site.baseurl }}/projects">Projects</a></li>
+      <li><a href="{{ site.baseurl }}/awards">Awards</a></li>
+      <li><a href="{{ site.baseurl }}/publications">Publications</a></li>
+      <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
 
     <main>
         {{ content }}
