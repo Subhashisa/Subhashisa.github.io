@@ -10,7 +10,6 @@ theme: minima  # Using Jekyll's default minima theme
 # Navigation settings (for your menu)
 header_pages:
   - About
-  - Education
   - Experience
   - Projects
   - Awards
