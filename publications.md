@@ -1,4 +1,4 @@
-## Publications on Multiple Long-Term Conditions (MLTCs)
+# Publications on Multiple Long-Term Conditions (MLTCs)
 
 You can view my full list of publications on my [Google Scholar profile](https://scholar.google.com/citations?user=KWVDiL8AAAAJ&hl=en).
 
