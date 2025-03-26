@@ -2,35 +2,16 @@
 title: "Subhashisa Swain"
 description: "Personal Website of Dr. Subhashisa Swain"
 baseurl: ""  # If your site is hosted at a subpath, set it here (e.g., "/cv").
-url: "https://subhashisa.github.io"  # Replace with your GitHub username or custom domain
-
+url: "https://subhashisa.github.io"  # Your GitHub Pages URL
 
 # Theme settings
-remote_theme: jekyll-theme-hyde  # A different theme with more structure
-
-# Set About as Homepage
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"  # Ensure About is using default layout and is the homepage
-
-# Navigation settings (for your menu)
-
-header_pages:
-  - about.md
-  - experience.md
-  - projects.md
-  - awards.md
-  - publications.md
-  - contact.md
+remote_theme: jekyll-theme-hyde  # Using a remote theme (jekyll-theme-hyde)
 
 # Markdown and HTML settings for content pages
 markdown: kramdown
 highlighter: rogue
 
-# Permalinks settings (for URLs of individual pages)
+# Permalink settings (for URLs of individual pages)
 permalink: /:title/
 
 # Social links (for your social media)
@@ -39,18 +20,18 @@ social_links:
   linkedin: "https://uk.linkedin.com/in/subhashisa-swain-44779623"  # Replace with your LinkedIn profile link
   twitter: "https://twitter.com/Sw_Subhashis"  # Replace with your Twitter handle
   researchgate: "https://www.researchgate.net/profile/Subhashisa-Swain"  # Replace with your ResearchGate
-  ORCID: "https://orcid.org/0000-0001-9207-1065"
+  orcid: "https://orcid.org/0000-0001-9207-1065"  # Replace with your ORCID profile link
 
-# Sass settings to use custom CSS file
+# Sass settings to use custom CSS file (if needed)
 sass:
   sass_dir: assets/css
   style: compressed
 
-# Add additional metadata for page customization (optional)
-exclude:
-  - "README.md"
-  - "LICENSE"
-
 # Include custom styles
 include:
   - "_assets"
+
+# Exclude unnecessary files
+exclude:
+  - "README.md"
+  - "LICENSE"
