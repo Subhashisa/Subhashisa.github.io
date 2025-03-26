@@ -1,7 +1,10 @@
 ---
-layout: home
+**layout: default
 title: "About Me"
+permalink: /**
 ---
+
+
 
 ![Profile Picture](Swain-Subhashisa.jpg)
 ## About Me
