@@ -10,7 +10,8 @@ theme: jekyll-theme-hyde  # A different theme with more structure
 # Set About as Homepage
 defaults:
   - scope:
-      path: "about.md"
+      path: ""
+      type: "pages"
     values:
       layout: "default"  # Ensure About is using default layout and is the homepage
 
