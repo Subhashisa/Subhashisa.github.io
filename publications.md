@@ -1,5 +1,6 @@
 # Publications on Multiple Long-Term Conditions (MLTCs)
 
+
 1. **Thompson W, Swain S, Zhao SS, Kamps A, Coupland C, Kuo C, Bierma-Zeinstra S, Runhaar J, Doherty M, Zhang W**  
    *Causal association between subtypes of osteoarthritis and common comorbidities: A Mendelian randomisation study, Osteoarthritis and Cartilage Open, Volume 5, Issue 4, 2023.*
 
