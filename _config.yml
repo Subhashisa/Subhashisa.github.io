@@ -4,6 +4,12 @@ description: "Personal Website of Dr. Subhashisa Swain"
 baseurl: ""  # If your site is hosted at a subpath, set it here (e.g., "/cv").
 url: "https://subhashisa.github.io"  # Your GitHub Pages URL
 
+defaults:
+  - scope:
+      path: "about.md"
+    values:
+      layout: "default"
+
 # Theme settings
 remote_theme: jekyll-theme-hyde  # Using a remote theme (jekyll-theme-hyde)
 
