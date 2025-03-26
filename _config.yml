@@ -10,9 +10,9 @@ theme: jekyll-theme-cayman  # A different theme with more structure
 # Set About as Homepage
 defaults:
   - scope:
-      path: ""
+      path: "about.md"
     values:
-      layout: "home"  # This will load the About page first as homepage
+      layout: "default"  # Ensure About is using default layout and is the homepage
 
 # Navigation settings (for your menu)
 header_pages:
@@ -32,7 +32,7 @@ permalink: /:title/
 
 # Social links (for your social media)
 social_links:
-  github: "https://github.com/subhashisa"   # Replace with your actual GitHub profile link
+  github: "https://github.com/Subhashisa"   # Replace with your actual GitHub profile link
   linkedin: "https://uk.linkedin.com/in/subhashisa-swain-44779623"  # Replace with your LinkedIn profile link
   twitter: "https://twitter.com/Sw_Subhashis"  # Replace with your Twitter handle
   researchgate: "https://www.researchgate.net/profile/Subhashisa-Swain"  # Replace with your ResearchGate
