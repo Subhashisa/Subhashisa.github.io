@@ -1,7 +1,11 @@
-# Publications on Multiple Long-Term Conditions (MLTCs)
+---
+layout: default
+title: "Publications"
+---
 
-  Google Scholar: "[https://scholar.google.com/citations?user=KWVDiL8AAAAJ&hl=en]"  # Replace with your GS profile link
+## # Publications on Multiple Long-Term Conditions (MLTCs)
 
+You can view my full list of publications on my [Google Scholar profile](https://scholar.google.com/citations?user=KWVDiL8AAAAJ&hl=en).
 
 
 1. **Thompson W, Swain S, Zhao SS, Kamps A, Coupland C, Kuo C, Bierma-Zeinstra S, Runhaar J, Doherty M, Zhang W**  
