@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+permalink: /
 ---
 
-# Welcome to My Personal Website!
+{% include_relative about.md %}
