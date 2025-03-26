@@ -5,6 +5,8 @@ baseurl: ""  # If your site is hosted at a subpath, set it here (e.g., "/cv").
 url: "https://subhashisa.github.io"  # Replace with your GitHub username or custom domain
 
 # Theme settings
+theme: jekyll-theme-cayman  # A different theme with more structure
+
 # Set About as Homepage
 defaults:
   - scope:
@@ -30,7 +32,22 @@ permalink: /:title/
 
 # Social links (for your social media)
 social_links:
-  github: "https://github.com/username"   # Replace with your actual GitHub profile link
-  linkedin: "https://linkedin.com/in/username"  # Replace with your LinkedIn profile link
-  twitter: "https://twitter.com/username"  # Replace with your Twitter handle
+  github: "https://github.com/subhashisa"   # Replace with your actual GitHub profile link
+  linkedin: "https://uk.linkedin.com/in/subhashisa-swain-44779623"  # Replace with your LinkedIn profile link
+  twitter: "https://twitter.com/Sw_Subhashis"  # Replace with your Twitter handle
   researchgate: "https://www.researchgate.net/profile/Subhashisa-Swain"  # Replace with your ResearchGate
+  ORCID: "https://orcid.org/0000-0001-9207-1065"
+
+# Sass settings to use custom CSS file
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+# Add additional metadata for page customization (optional)
+exclude:
+  - "README.md"
+  - "LICENSE"
+
+# Include custom styles
+include:
+  - "_assets"
