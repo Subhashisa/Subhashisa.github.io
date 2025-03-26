@@ -10,11 +10,13 @@
 </head>
 <body>
 
-    <!-- Header with Navigation -->
+    <!-- _layouts/default.html -->
+
     <header>
+        <!-- Horizontal navigation menu -->
         <nav>
-            <ul style="display: flex; justify-content: space-between; list-style-type: none; padding: 0; margin: 0;">
-                <li><img src="{{ '/assets/Swain-Subhashisa.jpg' | relative_url }}" alt="Your Photo" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;"></li> <!-- Add the profile image -->
+            <ul style="display: flex; align-items: center; list-style-type: none; padding: 0; margin: 0;">
+                <!-- Navigation Links -->
                 <li><a href="{{ site.baseurl }}/about">About</a></li>
                 <li><a href="{{ site.baseurl }}/experience">Experience</a></li>
                 <li><a href="{{ site.baseurl }}/projects">Projects</a></li>
@@ -25,12 +27,10 @@
         </nav>
     </header>
 
-    <!-- Main content -->
     <main>
         {{ content }}
     </main>
 
-    <!-- Footer -->
     <footer>
         <p>&copy; 2025 Subhashisa Swain. All Rights Reserved.</p>
         <ul>
