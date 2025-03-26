@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ site.baseurl }}/">Home</a></li>
+                {% for page in site.header_pages %}
+                    <li><a href="{{ site.baseurl }}/{{ page | downcase }}">{{ page }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Subhashisa Swain. All Rights Reserved.</p>
+        <ul>
+            <li><a href="{{ site.social_links.github }}">GitHub</a></li>
+            <li><a href="{{ site.social_links.linkedin }}">LinkedIn</a></li>
+            <li><a href="{{ site.social_links.researchgate }}">ResearchGate</a></li>
+            <li><a href="{{ site.social_links.orcid }}">ORCID</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
