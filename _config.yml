@@ -17,12 +17,12 @@ defaults:
 
 # Navigation settings (for your menu)
 header_pages:
-  - About
-  - Experience
-  - Projects
-  - Awards
-  - Publications
-  - Contact
+  - about.md
+  - experience.md
+  - projects.md
+  - awards.md
+  - publications.md
+  - contact.md
 
 # Markdown and HTML settings for content pages
 markdown: kramdown
