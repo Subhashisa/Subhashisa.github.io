@@ -1,0 +1,10 @@
+<header>
+    <nav>
+        <ul>
+            <li><a href="{{ site.baseurl }}/">Home</a></li>
+            {% for page in site.header_pages %}
+                <li><a href="{{ site.baseurl }}/{{ page | downcase }}">{{ page }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>
