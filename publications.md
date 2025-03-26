@@ -1,5 +1,8 @@
 # Publications on Multiple Long-Term Conditions (MLTCs)
 
+  Google Scholar: "[https://orcid.org/0000-0001-9207-1065](https://scholar.google.com/citations?user=KWVDiL8AAAAJ&hl=en)"  # Replace with your GS profile link
+
+
 
 1. **Thompson W, Swain S, Zhao SS, Kamps A, Coupland C, Kuo C, Bierma-Zeinstra S, Runhaar J, Doherty M, Zhang W**  
    *Causal association between subtypes of osteoarthritis and common comorbidities: A Mendelian randomisation study, Osteoarthritis and Cartilage Open, Volume 5, Issue 4, 2023.*
