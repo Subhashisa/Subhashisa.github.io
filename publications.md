@@ -1,6 +1,6 @@
 # Publications on Multiple Long-Term Conditions (MLTCs)
 
-  Google Scholar: "[https://orcid.org/0000-0001-9207-1065](https://scholar.google.com/citations?user=KWVDiL8AAAAJ&hl=en)"  # Replace with your GS profile link
+  Google Scholar: "[https://scholar.google.com/citations?user=KWVDiL8AAAAJ&hl=en]"  # Replace with your GS profile link
 
 
 
