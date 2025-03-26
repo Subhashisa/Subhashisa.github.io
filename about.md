@@ -2,7 +2,6 @@
 layout: default
 title: "About Me"
 ---
-## Welcome to My Professional Website
 
 Welcome!
 
