@@ -6,7 +6,7 @@ title: About
 
 Welcome!
 
-<img src="{{ '/assets/images/Swain-Subhashisa.jpg' | relative_url }}" alt="Subhashisa Swain" style="width: 100px; height: auto; border-radius: 50%; position: absolute; top: 20px; left: 20px; border: 2px solid #fff;">
+<img src="{{ 'Swain-Subhashisa.jpg' | relative_url }}" alt="Subhashisa Swain" style="width: 100px; height: auto; border-radius: 50%; position: absolute; top: 20px; left: 20px; border: 2px solid #fff;">
 
 ## About Me
 
