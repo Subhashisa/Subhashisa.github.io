@@ -4,6 +4,7 @@ description: "Personal Website of Dr. Subhashisa Swain"
 baseurl: ""  # If your site is hosted at a subpath, set it here (e.g., "/cv").
 url: "https://subhashisa.github.io"  # Replace with your GitHub username or custom domain
 
+
 # Theme settings
 theme: jekyll-theme-hyde  # A different theme with more structure
 
