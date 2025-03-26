@@ -17,6 +17,7 @@ defaults:
       layout: "default"  # Ensure About is using default layout and is the homepage
 
 # Navigation settings (for your menu)
+
 header_pages:
   - about.md
   - experience.md
