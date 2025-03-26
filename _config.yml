@@ -27,7 +27,7 @@ header_pages:
 
 # Markdown and HTML settings for content pages
 markdown: kramdown
-highlighter: pygments
+highlighter: rogue
 
 # Permalinks settings (for URLs of individual pages)
 permalink: /:title/
